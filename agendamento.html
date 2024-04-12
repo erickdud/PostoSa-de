@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Agendar Vacinas?!</h2>
+                <p class="description description-primary">Proteção contra virus e doenças</p>
+                <p class="description description-primary">Venha marcar sua Vacina!</p>
+                <button id="signin" class="btn btn-primary">CLIQUE AQUI</button>
+            </div>    
+            <div class="second-column">
+                <h2 class="title title-second">Agende Seu <span>Exame</span></h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-instagram"></i>        
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-whatsapp"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div><!-- social media -->
+                <p class="description description-second">Marque Sua Consulta</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Name">
+                    </label>
+                    
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    
+
+                    <label class="label-input" for=" ">
+                        <i class="fas fa-phone"></i>
+                        <input type="number" placeholder="digite seu numero...">
+                    </label>
+                    
+                   <label class="label-input" for="">
+                        <i class="fas fa-calendar"></i>
+                        <input type="datetime-local" placeholder="">
+                    </label>
+                    <select class="label-input" for=" " id="select">
+                            <option value="Dermatologista">Dermatologista</option>
+                            <option value="Cardiologista">Cardiologista</option>
+                            <option value="Dentista">Dentista</option>
+                            <option value="Pediatra">Pediatra</option>
+                            <option value="Nutricionista">Nutricionista</option>
+                        </select>
+                    <button class="btn btn-second">Agendar</button>        
+                </form>
+            </div><!-- second column -->
+        </div><!-- first content -->
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary" id="exames">Exames?</h2>
+                <p class="description description-primary">Venha deixar sua saúde em dia</p>
+                <p class="description description-primary">Clique aqui para marcar seus exames</p>
+                <button id="signup" class="btn btn-primary">CLIQUE AQUI</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-second">Agende Sua <span>Vacina</span></h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-whatsapp"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div><!-- social media -->
+                <p class="description description-second">Marque Sua Vacina</p>
+                <form class="form">
+
+                   <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Name">
+                    </label>
+
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                
+                    <label class="label-input" for="">
+                        <i class="fas fa-phone"></i>
+                        <input type="number" placeholder="Digite seu numero">
+                    </label>
+
+                      <label class="label-input" for="">
+                        <i class="fas fa-calendar"></i>
+                        <input type="datetime-local" placeholder="Digite seu numero">
+                    </label>
+
+                        <select class="label-input" for="" id="select">
+                            <option value="covid-19">Vacina contra covid - 5 a 60 anos</option>
+                            <option value="Dengue">Vacina contra Dengue 18 a 40 anos</option>
+                            <option value="Variola">Vacina contra Variola 12 a 25 anos</option>
+                            <option value="Gripe">Vacina contra Gripe 10 a 30 anos</option>
+                            <option value="Tetano">Vacina contra tetano 6 a 80 anos</option>
+                        </select>
+                   
+                    <button class="btn btn-second">Agendar</button>
+                </form>
+            </div><!-- second column -->
+        </div><!-- second-content -->
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
